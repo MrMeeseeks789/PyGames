@@ -2,6 +2,7 @@ import random
 import math
 
 def guess_num(max_int):
+    
     print(f"level set to =============> {max_int}")
     print(f"Guess a number from 1 to {max_int}!")
     rand = random.randint(1,max_int)
